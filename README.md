@@ -1,6 +1,5 @@
 # NetworkProgramming
-## NetworkProgramming
-IP Packetcapture
+IP PacketCapture
 When program start,it will capture IP Packet,it will decide IP Protocol field is TCP(0x6),program print source port-> destination port.
 if IP Protocol field is UDP(0x11),print Source Port -> Destination Port.
 if TCP Packet destination Port field is 80 or 8080 ,print "you are browsing web".
